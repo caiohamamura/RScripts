@@ -1,6 +1,5 @@
 require(raster)
 args <- commandArgs(trailingOnly = TRUE)
-print(args)
 
 setOptions('GTiff')
 img = stack(args[1])
